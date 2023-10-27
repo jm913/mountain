@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+        <link rel="stylesheet" href="site.css">
+</head>
+<body>
+<!-- navebar....... -->
+<div class="navbar">
+    <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-link">
+<li class="active"><a href="#"></a>Home</li>
+<li><a href="#"></a>Tour</li>
+<li><a href="#"></a>Explore</li>
+<li class="ctn"><a href="#" ></a>Contact</li>
+    </ul>
+    <img class="menu-btn" src="./icons8-menu-button-48.png">
+</div>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Color Full World</h2>
+            <div class="line"></div>
+            <h1>A Wonderfull Gift</h1> <br>
+            <a href="#" class="ctn ">Learn More</a>
+        </div>
+    </header>
+    <!-- events.... -->
+<section class="events">
+<div class="tittle">
+    <h1>Up Coming Events</h1>
+</div>
+<div class="line"></div>
+<div class="row">
+    <div class="col">
+        <img src="col1.jpeg">
+        <h2 class="mar">Mount Everest</h2>
+        <p>Mount Everest is the highest point on Earth. Learn about its history, the people who live there, and the people who visit to climb.</p><br>
+        <a href="#" class="ctn">Learn more</a>
+    </div>
+    <div class="col">
+        <img src="caal2.jpeg">
+        <h2 class="mar">Mount Fuji</h2>
+        <p>Mount Fuji, Japanese Fuji-san, also spelled Fujisan, also called Fujiyama or Fuji no Yama, highest mountain in Japan.</p><br>
+        <a href="#" class="ctn">Learn more</a>
+    </div>
+</div>
+</section>
+<!-- explore -->
+<section class="explore">
+<div class="explore-content">
+<h1>Explore the world</h1>
+<div class="line"></div>
+<p>There are many ways to explore the world, both virtually and in person. Here are some ideas to get you started:
+
+Virtual Tours: You can explore different parts of the world from the comfort of your own home. Check out Virtual Vacation for a variety of virtual tours, including walking tours, driving tours, and live cams.
+
+Educational Resources: The BBC Bitesize website offers a range of educational resources for exploring the world. You can learn about the seven continents, oceans, and poles.
+</p><br>
+    <a href="#" class="ctn">Learn more</a>
+</div>
+</section>
+<section class="tour">
+    <div class="row">
+        <div class="col txt">
+            <h2 class="mar">Upcoming tour and destination</h2>
+            <p>Take a 2-day, Eco-Romania certified trek in one of the greatest mountain ranges in Romania, the Piatra Craiului National Park. Hike with a licensed guide, discover local mountain villages, and soak up spectacular views from the highest point in the park.</p><br><br>
+            <a href="#" class="ctn aa">learn more</a>
+        </div>
+        <div class="col ">
+            <div class="gal">
+                <img class="imgg" src="pic1.jpeg">
+                <img class="imgg" src="pic2.jpg">
+                <img class="imgg"  src="pic3.jpg">
+                <img class="imgg" src="pic4.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <p> 347 sector 13 bhiwani , pin 127021 , haryana | 9896172871  |jmehra913@gmail.com</p>
+    <p>copyright @2023</p>
+</section>
+    <script>
+        let menu=document.querySelector('.menu-btn');
+        let navlink=document.querySelector('.nav-link');
+        menu.addEventListener('click',()=>{
+            navlink.classList.toggle('mobile-menu')
+            
+        })
+    </script>
+</body>
+</html>
